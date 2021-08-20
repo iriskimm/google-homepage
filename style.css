@@ -1,0 +1,138 @@
+body {
+    font-family: Arial;
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+}
+
+#navbar-left {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 55px;
+}
+
+#navbar-right {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 55px;
+}
+
+#navbar-left ul, #navbar-right ul {
+    display: inline-flex;
+    padding: 0;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0px 10px 10px 10px;
+    color: rgb(40, 40, 40);
+}
+
+#navbar a, footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar li:hover, footer label:hover {
+    text-decoration: underline solid grey 1px;
+    cursor: pointer;
+}
+
+#navbar li:hover {
+    transform: scale(1.1);
+    text-decoration: underline solid black 1px;
+}
+
+#navbar img {
+    width: 2em;
+    border-radius: 50%;
+}
+
+#main-logo {
+    width: 50%;
+    max-width: 270px;
+    display: block;
+    margin: 25px auto 35px auto;
+}
+
+.center-items {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#search-box {
+    width: 60%;
+    height: 3em;
+    max-width: 550px;
+    min-width: 420px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    box-shadow: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+#main-buttons button {
+    height: 40px;
+    padding: 8px 18px;
+    border: none;
+    margin: 30px 4px 15px 4px;
+    background-color: rgba(128, 128, 128, 0.05);
+}
+
+#main-buttons button:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+#offered-languages {
+    font-size: 0.8em;
+}
+
+#offered-languages a {
+    color: #1a0dab;
+}
+
+#offered-languages a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footer-one, #footer-two {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 40px;
+    background-color:rgba(128, 128, 128, 0.15);
+    display: flex;
+    align-items: center;
+}
+
+#footer-one {
+    bottom: 40px;
+}
+
+#footer-two #footer-left {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+#footer-two #footer-right {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+footer label {
+    padding: 5px 15px;
+    font-size: 12px;
+    color: grey;
+}
